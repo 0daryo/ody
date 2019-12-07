@@ -1,9 +1,6 @@
 builds:
-  # 対象ファイル
   - main: main.go
-    # バイナリの名前
     binary: ody
-    # どのOSようにコンパイルするか
     goos:
       - windows
       - darwin

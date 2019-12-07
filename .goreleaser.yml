@@ -1,0 +1,12 @@
+builds:
+  # 対象ファイル
+  - main: cmd/main.go
+    # バイナリの名前
+    binary: ody
+    # どのOSようにコンパイルするか
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64

@@ -1,0 +1,5 @@
+let hoge = 3;
+if (true){
+  puts(hoge)
+}
+puts("hello world")

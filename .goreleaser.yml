@@ -1,6 +1,6 @@
 builds:
   # 対象ファイル
-  - main: cmd/main.go
+  - main: main.go
     # バイナリの名前
     binary: ody
     # どのOSようにコンパイルするか

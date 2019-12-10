@@ -10,4 +10,4 @@ https://interpreterbook.com/
 
 1. `go get -u github.com/0daryo/ody`
 2. make XX.od file in root dir
-3. run `ody exec XX.od`
+3. run `ody exec XX`

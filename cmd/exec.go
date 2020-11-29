@@ -44,7 +44,7 @@ to quickly create a Cobra application.`,
 		// ファイルをOpenする
 		f, err := os.Open(fmt.Sprintf("%s.od", flag.Arg(1)))
 		if err != nil {
-			fmt.Println("error")
+			fmt.Println(err)
 		}
 		defer f.Close()
 
